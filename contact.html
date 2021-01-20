@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Jacob's Portfolio Site</title>
+    <meta charset="utf-8">
+    <link href="portfolio.css" rel="stylesheet">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="contact.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <a href="index.html"><img id="logo" src="media/logo.png" alt="Logo"></a>
+        <div id="title">
+          <h1>Jacob's Portfolio Site</h1>
+        </div>
+        <div id="socials">
+          <a href="https://twitter.com/short_ribs">
+            <img src="media/twitter.png" alt="My Twitter"></a>
+          <a href="https://www.facebook.com/jacob.hake/">
+            <img src="media/facebook.png" alt="My Facebook"></a>
+          <a href="https://www.tumblr.com/dashboard/blog/coffeeandsardines">
+            <img src="media/tumblr.png" alt="My Tumblr"></a>
+        </div>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="web_design.html">Web Design</a></li>
+          <li><a href="game_engine.html">Game Engine</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <main id="contactMain">
+        <div id="contacts">
+          <h2>Contact</h2>
+          <div class="contactList">
+            <h3>Follow me on Social Media!</h3>
+            <div id="contactSocials">
+              <a href="https://twitter.com/short_ribs">
+                <img src="media/twitter.png" alt="My Twitter"></a>
+              <a href="https://www.facebook.com/jacob.hake/">
+                <img src="media/facebook.png" alt="My Facebook"></a>
+              <a href="https://www.tumblr.com/dashboard/blog/coffeeandsardines">
+                <img src="media/tumblr.png" alt="My Tumblr"></a>
+            </div>
+            <h3>Or reach out to me via e-mail:</h3>
+            <form name="contactForm" id="contactForm" method="post"
+              id="emailContact" onsubmit="sendEmail()">
+              <div id="fNameTag">
+                <label for="firstName">First Name:</label></div>
+              <div id="fNameInput">
+                <input type="text" name="firstName" id="firstName" required="required">
+              </div>
+              <div id="lNameTag">
+                <label for="lastName">Last Name:</label></div>
+              <div id="lNameInput">
+                <input type="text" name="lastName" id="lastName" required="required">
+              </div>
+              <div id="emailTag">
+                <label for="emailAddress">Email Address:</label></div>
+              <div id="emailInput">
+                <input type="email" name="emailAddress" id="emailAddress" required="required">
+              </div>
+              <div id="commentSection"><label for="comments">Comments:</label>
+                <textarea name="comments" id="comments" rows="5" cols="40"></textarea></div>
+              <div id="buttons">
+                <input id="submitButton" type="submit" value="Contact"/>
+                <input id="resetButton" type="reset" value="Clear"/>
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div id="footerBox">
+          <div id="copyright">Copyright &copy; 2020 Jacob Hake</div>
+          <div id="email">contactjake@gmail.com</div>
+          <div id="footerLinks">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="web_design.html">Web Design</a></li>
+              <li><a href="game_engine.html">Game Engine</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
