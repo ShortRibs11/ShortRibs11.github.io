@@ -4,7 +4,7 @@
 
 body {
   font-family: Verdana, Arial, sans-serif;
-  background-color: #ffa04d;
+  background-color: #fdfdfd;
   margin: 0;
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  background-color: #fdfdfd;
+  background-color: #fafafa;
   color: #000000;
   grid-row: 1 / 2;
   grid-column: 1 / 4;
@@ -63,13 +63,13 @@ header h1 {
 }
 
 nav {
-  background-color: #b35300;
+  background-color: #fafafa;
   grid-row: 2 / 3;
   grid-column: 1 / 2;
 }
 
 nav a {
-  background-color: #ff7700;
+  background-color: #fafafa;
   color: #FFFFFF;
   height: auto;
   padding: 10px;
@@ -113,7 +113,7 @@ main {
 }
 
 #featured {
-  background-color: #cc5f00;
+  background-color: #fafafa;
   border: solid 1px #000000;
   border-radius: 15px;
   grid-row: 2 / 3;
@@ -145,7 +145,7 @@ main {
 
 #featured p {
   display: block;
-  background-color: #ff7700;
+  background-color: #fafafa;
   color: #000000;
   margin: 10px;
   padding: 10px;
@@ -168,7 +168,7 @@ main {
   grid-template-columns: 25% 25% 50%;
   grid-template-rows: 25% 25% 25% 25%;
   text-align: left;
-  background-color: #b35300;
+  background-color: #fafafa;
   padding: 10px;
   margin: 15px;
   border: solid 1px #000000;
@@ -190,24 +190,24 @@ label {
 }
 
 input[type=text], input[type=email], textarea {
-  background-color: #ff7700;
+  background-color: #fafafa;
   padding: 5px;
   border: 2px solid #b35300;
   border-radius: 5px;
 }
 
 input[type=text]:hover, input[type=email]:hover, textarea:hover {
-  background-color: #FF9900;
+  background-color: #fafafa;
 }
 
 input[type=text]:focus, input[type=email]:focus, textarea:focus {
-  background-color: #ff7700;
+  background-color: #fafafa;
   border: 2px dotted #000;
   color: #000000;
 }
 
 input[type=submit], input[type=reset] {
-  background-color: #ff7700;
+  background-color: #fafafa;
   width: 100px;
   padding: 5px;
   margin-left: 5px;
@@ -275,7 +275,7 @@ input[type=submit]:hover, input[type=reset]:hover {
 }
 
 .projectList {
-  background-color: #cc5f00;
+  background-color: #fafafa;
   margin: 20px;
   border: solid 1px #000000;
   border-radius: 15px;
