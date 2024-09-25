@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  background-color: #333388;
+  background-color: #111188;
   color: #000000;
   grid-row: 1 / 2;
   grid-column: 1 / 4;
@@ -391,14 +391,14 @@ input[type=submit]:hover, input[type=reset]:hover {
 }
 
 footer {
-  background-color: #805026;
+  background-color: #1111cc;
   padding: 10px;
   grid-row: 3 / 4;
   grid-column: 1 / 4;
 }
 
 #footerBox {
-  background-color: #ff7700;
+  background-color: #333399;
   color: #000000;
   display: block;
   margin: auto;
