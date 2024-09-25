@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  background-color: #0000dd;
+  background-color: #333388;
   color: #000000;
   grid-row: 1 / 2;
   grid-column: 1 / 4;
